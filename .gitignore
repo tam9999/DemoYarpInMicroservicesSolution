@@ -23,3 +23,5 @@ OrderApi/obj/Debug/net8.0/OrderApi.AssemblyInfoInputs.cache
 OrderApi/obj/rider.project.restore.info
 ApiGateway/ApiGateway.csproj
 ApiGateway/obj/ApiGateway.csproj.nuget.dgspec.json
+ApiGateway/obj/project.nuget.cache
+ApiGateway/obj/rider.project.restore.info

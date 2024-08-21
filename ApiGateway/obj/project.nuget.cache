@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "82VVMv4+Lsg=",
+  "dgSpecHash": "5EdGHQFJHIo=",
   "success": true,
   "projectFilePath": "/Users/nguyenminhtam/RiderProjects/DemoYarpInMicroservicesSolution/ApiGateway/ApiGateway.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/nguyenminhtam/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
+    "/Users/nguyenminhtam/.nuget/packages/yarp.reverseproxy/2.2.0-preview.1.24266.1/yarp.reverseproxy.2.2.0-preview.1.24266.1.nupkg.sha512"
+  ],
   "logs": []
 }
