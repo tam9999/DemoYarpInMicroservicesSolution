@@ -1,19 +1,21 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ProductApi.Controllers;
-
-[ApiController]
-[Route("api/[controller]")]
-public class ProductController : ControllerBase
+namespace ProductApi.Controllers
 {
-    private static readonly string[] Products = new[]
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ProductController : ControllerBase
     {
-        "Clothes", "Bags", "Televisions", "Shoes", "Phone", "Accessories"
-    };
+        private static readonly string[] Products = new[]
+        {
+            "Clothes", "Bags", "Televisions", "Shoes", "Phone", "Accessories"
+        };
 
-    [HttpGet]
-    public IActionResult Get()
-    {
-        return Ok(Products);
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(Products);
+        }
     }
 }
+

@@ -10,4 +10,9 @@
       <PackageReference Include="Yarp.ReverseProxy" Version="2.2.0-preview.1.24266.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\OrderApi\OrderApi.csproj" />
+      <ProjectReference Include="..\ProductApi\ProductApi.csproj" />
+    </ItemGroup>
+
 </Project>
